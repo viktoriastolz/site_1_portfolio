@@ -8,6 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  color: #fff;
 }
 
 a {
@@ -20,5 +21,20 @@ img {
 
 .wrapper {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(74,40,0,1) 100%);
+  width: 100%;
+}
 
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50px 0;
+}
+
+header .logo {
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 800;
 }
